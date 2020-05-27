@@ -1,52 +1,36 @@
 import React from 'react';
-
-import './global.css';
-import './sidebar.css';
+import './App.css';
 
 function App() {
   return (
-    <div>
-      <aside className="left">
-        <section className="sidebar">
-          <ul className="sidebar-menu">
-            <li className="esp">
-              <a href="#">
-                Cadastros
-              </a>
-            </li>
-            <li className="esp">
-              <a href="#">
-                Produtos
-              </a>
-            </li>
-            <li className="esp">
-              <a href="#">
-                Vendas
-              </a>
-            </li>
-            <li className="esp">
-              <a href="#">
-                Estoque
-              </a>
-            </li>
-            <li className="esp">
-              <a href="#">
-                Financeiro
-              </a>
-            </li>
-            <li className="esp">
-              <a href="#">
-                Notas Fiscais
-              </a>
-            </li>
-            <li className="esp">
-              <a href="#">
-                Configurações
-              </a>
-            </li>
-          </ul>
-        </section>
-      </aside>
+    <div className="containerx">
+
+      <div className="boxLogo">
+        <div className="logo">
+          <img src="./assets/logoCS.png" alt="logocs" />
+          <div className="textCS">
+            <h1>CARAMELLO</h1>
+            <h2>SHOES</h2>
+          </div>
+        </div>
+      </div>
+
+
+      <div className="boxLogin">
+          <h1>Entrar no Sistema</h1>
+
+        <i className="fa fa-user" aria-hidden="true"></i>
+        <input className="inputLogin" type="text" placeholder="Login" />
+
+        <i className="fa fa-lock" aria-hidden="true"></i>
+        <input className="inputLogin" type="text" placeholder="Senha" />
+
+        <button>Entrar</button>
+      </div>
+
+      <footer className="footer">
+        <p>CREATED BY TONY S.</p>
+      </footer>
     </div>
   );
 }
