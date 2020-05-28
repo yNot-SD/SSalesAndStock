@@ -12,6 +12,44 @@ body{
   height: 100%;
   background: linear-gradient(rgb(255, 166, 0), rgb(255, 238, 0));
 }
+
+#bolinhas {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  margin: 5px;
+  background-repeat: repeat-x;
+}
+
+.traco {
+  position: fixed;
+  height: 200px;
+  width: 260px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  top: 50%;
+  left: -20%;
+
+  transform: translate(0%,-50%);
+}
+
+.use {
+  position: fixed;
+  font-family: cursive;
+  text-align: center;
+  font-size: 36px;
+  width: 200px;
+
+  color: black;
+  padding: 5px;
+
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%,-50%);
+}
+
 .footer {
   position: fixed;
   bottom: 0;
@@ -52,6 +90,8 @@ img{
 }
 
 .boxLogin h1{
+  font-family: cursive;
+  color: black;
   float: left;
   font-size: 35px;
 }
@@ -97,3 +137,23 @@ img{
   transform: translate(-50%);  
 }
 
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  color: rgba(255, 255, 255, 0.459);
+  text-align: center;
+}
+
+.header h1 {
+  font-family: cursive;
+  font-size: 28px;
+  color: white;
+}
+
+.textCS {
+  font-family: cursive;
+  transform: translateY(10%);
+  color: black;
+}
