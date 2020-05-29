@@ -8,7 +8,7 @@ function BoxLogo() {
 
 
                 <div className="textCS">
-                    <h1>CARAMELLO</h1>
+                    <h1 className="font-bold">CARAMELLO</h1>
                     <h2>SHOES</h2>
                 </div>
 

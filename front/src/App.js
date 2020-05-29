@@ -19,8 +19,8 @@ function App() {
             
             <BoxLogin></BoxLogin>
 
-            <footer className="footer">
-                <p>CREATED BY TONY S.</p>
+            <footer className="footer font-italic">
+                <p className="blockquote-footer">CREATED BY TONY S.</p>
             </footer>
         </div >
 

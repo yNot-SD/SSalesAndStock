@@ -13,13 +13,13 @@
   }
   
   img{
-    border-radius: 50px;
     height: 200px;
     width: 200px;
+    border-radius: 25px;
   }
 
   .textCS {
-    font-family: cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     transform: translateY(10%);
     color: black;
   }
