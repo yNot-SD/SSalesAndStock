@@ -1,54 +1,30 @@
 import React from 'react';
+import BoxLogin from './components/BoxLogin.js'
+import BoxLogo from './components/BoxLogo.js'
 
-import './global.css';
-import './sidebar.css';
+import './style/App.css';
+import './style/login.css';
+import './style/logo.css';
 
 function App() {
-  return (
-    <div>
-      <aside className="left">
-        <section className="sidebar">
-          <ul className="sidebar-menu">
-            <li className="esp">
-              <a href="#">
-                Cadastros
-              </a>
-            </li>
-            <li className="esp">
-              <a href="#">
-                Produtos
-              </a>
-            </li>
-            <li className="esp">
-              <a href="#">
-                Vendas
-              </a>
-            </li>
-            <li className="esp">
-              <a href="#">
-                Estoque
-              </a>
-            </li>
-            <li className="esp">
-              <a href="#">
-                Financeiro
-              </a>
-            </li>
-            <li className="esp">
-              <a href="#">
-                Notas Fiscais
-              </a>
-            </li>
-            <li className="esp">
-              <a href="#">
-                Configurações
-              </a>
-            </li>
-          </ul>
-        </section>
-      </aside>
-    </div>
-  );
+    return (
+        <div className="containerx">
+            <div className="header">
+                <h1>Use o que te faz feliz!</h1>
+            </div>
+
+            <BoxLogo></BoxLogo>
+
+            <div className="hr"></div>
+            
+            <BoxLogin></BoxLogin>
+
+            <footer className="footer font-italic">
+                <p className="blockquote-footer">CREATED BY TONY S.</p>
+            </footer>
+        </div >
+
+    );
 }
 
 export default App;

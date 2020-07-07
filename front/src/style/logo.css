@@ -1,0 +1,25 @@
+.boxLogo {
+    position: fixed;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  img{
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+  }
+
+  .textCS {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transform: translateY(10%);
+    color: black;
+  }
