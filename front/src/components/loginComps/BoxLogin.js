@@ -1,7 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-
-function BoxLogin() {
+function BoxLogin(props) {
     return (
         <div className="boxLogin">
             <h1 className="font-bold">Entrar no Sistema</h1>
@@ -9,7 +9,9 @@ function BoxLogin() {
             <input className="inputLogin" type="text" placeholder="Login" />
             <input className="inputLogin" type="password" placeholder="Senha" />
 
-            <button>Entrar</button>
+            <Link to="/main">
+                <button>Entrar</button>
+            </Link>
         </div>
     );
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function BoxLogo() {
+function BoxLogo(props) {
     return (
         <div className="boxLogo">
             <div className="logo">
