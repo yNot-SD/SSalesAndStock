@@ -1,8 +1,13 @@
 import React from 'react';
+import '../../style/mainStyle/Menu.css'
 
 function MainScreen(props) {
     return (
-        <h1>Tela Principal</h1>
+        <div>
+            <div className="divMain">
+                <h1>Hello World</h1>
+            </div>
+        </div>
     )
 }
 
